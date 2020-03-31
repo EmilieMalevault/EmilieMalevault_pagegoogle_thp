@@ -1,0 +1,82 @@
+.nav {
+  display: flex;
+  float: right;
+  order: 1;
+  justify-content: 1 1 auto;
+  min-height: 56px;
+  min-width: 244px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  position: relative;
+  text-align: right;
+}
+
+.left, .middle, .right {
+  flex: 1;
+}
+
+.middle {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.searchform
+{
+  flex: 1;
+  display: flex;
+  flex: wrap;
+  align-content: center;
+  justify-content: flex-start,	
+}
+
+.div-logo
+{
+	margin-top: 47px;
+	height: 233px;
+}
+.logo
+{
+	width: 272px;
+	height: 92px;
+	padding-top: 109px;
+	padding-bottom: 20px;
+	align-content: center;
+}
+
+.item
+{
+	font-size: 13px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline-block;
+}
+
+#search_bar_content{
+    display: flex;
+    flex:wrap;
+    flex:1;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#loupe{
+    background-image: url("img/loupe.png");
+    background-position: center;
+  background-size: 24px;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
+
+#micro{
+    background-image: url("img/micro.png");
+    background-position: center;
+  background-size: 24px;
+  height: 24px;
+  width: 24px;
+  align-self: center;
+}
